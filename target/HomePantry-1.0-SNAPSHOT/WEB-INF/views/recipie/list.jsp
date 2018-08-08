@@ -1,0 +1,53 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: milena
+  Date: 31.07.18
+  Time: 14:55
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<html>
+<head>
+    <title>My Products</title>
+</head>
+<body>
+<c:import url="../fragments/header.jsp"/>
+
+<p><a href="${pageContext.request.contextPath}/recipie/form" >Add new recipie</a></p>
+
+<table class="table table-bordered table-dark">
+
+    <thead>
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Ingredients</th>
+        <th scope="col">Add to make</th>
+
+    </tr>
+    </thead>
+    <tbody>
+
+    <c:forEach items="${recipesWithIngredients}" var="recipes">
+        <tr>
+            <th scope="row">${recipes.id}</th>
+            <td>${recipes.howToPrepare}</td>
+            <td><c:forEach items="${recipes.ingredients}" var="ingredient">
+                ${ingredient.name} <br>
+            </c:forEach> </td>
+            <td><a href="">Add products to shopping list</a></td>
+
+        </tr>
+    </c:forEach>
+    </tbody>
+</table>
+
+<%--<ul>--%>
+    <%--<c:forEach items="${recipes}" var="recipes">--%>
+        <%--<li>${recipes.id} <a href="">Add products to shopping list</a> </li>--%>
+    <%--</c:forEach>--%>
+<%--</ul>--%>
+
+</body>
+</html>
