@@ -9,7 +9,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>Title</title
+    <title>Title</title>
             <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -19,12 +19,11 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body background =https://cdn.pixabay.com/photo/2018/07/22/12/52/hamburger-3554527_960_720.jpg>
 <p><a href="${pageContext.request.contextPath}/product" >All available products</a></p>
 <p><a href="${pageContext.request.contextPath}/recipie" >All available recipies</a></p>
 <p><a href="${pageContext.request.contextPath}/UserProduct" >Show my products</a></p>
 <p><a href="${pageContext.request.contextPath}/shoppingBag" >Show my shopping list</a></p>
 <p><a href="${pageContext.request.contextPath}/logout" >Logout</a></p>
-
 </body>
 </html>
