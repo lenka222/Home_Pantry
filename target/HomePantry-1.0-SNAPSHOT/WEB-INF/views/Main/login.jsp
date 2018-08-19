@@ -21,9 +21,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body background = https://cdn.pixabay.com/photo/2017/09/12/16/12/mason-jars-2742757_960_720.jpg
-background-repeat = no-repeat;
-background-position = center;>
+<%--<body background = https://cdn.pixabay.com/photo/2017/09/12/16/12/mason-jars-2742757_960_720.jpg--%>
+<%--background-repeat = no-repeat;--%>
+<%--background-position = center;>--%>
+<body link rel="stylesheet" type="text/css" href="css/style.css">
 <h4>Login:</h4>
 <form method="post">
     <input path  ="text" name="nick" placeholder="nick"/>
