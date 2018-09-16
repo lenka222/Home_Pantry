@@ -33,14 +33,15 @@
 ShoppingBag:<br/> <c:forEach items="${sessionScope.shoppingBag.products}" var="productName">${productName}<br/></c:forEach><br/>
 
 <br>
-All products:
+<h3>All products</h3>
 
-<table class="table table-bordered table-dark">
+<table class="table table-hover">
 
     <thead>
     <tr>
         <th scope="col">Id</th>
         <th scope="col">Name</th>
+        <th scope="col">Category</th>
     </tr>
     </thead>
     <tbody>
@@ -48,15 +49,11 @@ All products:
     <tr>
         <th scope="row">${product.id}</th>
         <td>${product.name}</td>
-
+        <td>${product.category}</td>
+        </form> </td>
     </tr>
     </c:forEach>
     </tbody>
 </table>
-<%--<ul>--%>
-    <%--<c:forEach items="${products}" var="product">--%>
-        <%--<li>${product.name}</li>--%>
-    <%--</c:forEach>--%>
-<%--</ul>--%>
 </body>
 </html>

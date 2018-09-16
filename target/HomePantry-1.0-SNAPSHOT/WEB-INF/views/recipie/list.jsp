@@ -24,12 +24,13 @@
 
 <p><a href="${pageContext.request.contextPath}/recipie/form" >Add new recipie</a></p>
 
-<table class="table table-bordered table-dark">
+<table class="table table-hover">
 
     <thead>
     <tr>
         <th scope="col">Id</th>
         <th scope="col">Name</th>
+        <th scope="col">How to prepare</th>
         <th scope="col">Ingredients</th>
         <th scope="col">Add to make</th>
 
@@ -50,12 +51,5 @@
     </c:forEach>
     </tbody>
 </table>
-
-<%--<ul>--%>
-    <%--<c:forEach items="${recipes}" var="recipes">--%>
-        <%--<li>${recipes.id} <a href="">Add products to shopping list</a> </li>--%>
-    <%--</c:forEach>--%>
-<%--</ul>--%>
-
 </body>
 </html>

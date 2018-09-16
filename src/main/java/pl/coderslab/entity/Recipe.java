@@ -17,14 +17,14 @@ public class Recipe {
     private Long id;
 
     @ManyToMany
-    private List<Product> ingredients= new ArrayList<>();
+    private List<Product> ingredients = new ArrayList<>();
 
     @NotNull
     @NotBlank
     private String howToPrepare;
 
     @OneToMany
-    private List<User> users= new ArrayList<>();
+    private List<User> users = new ArrayList<>();
 
     public Long getId() {
         return id;

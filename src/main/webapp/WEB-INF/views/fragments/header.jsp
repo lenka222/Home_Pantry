@@ -19,11 +19,35 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body background =https://cdn.pixabay.com/photo/2018/07/22/12/52/hamburger-3554527_960_720.jpg>
-<p><a href="${pageContext.request.contextPath}/product" >All available products</a></p>
-<p><a href="${pageContext.request.contextPath}/recipie" >All available recipies</a></p>
-<p><a href="${pageContext.request.contextPath}/UserProduct" >Show my products</a></p>
-<p><a href="${pageContext.request.contextPath}/shoppingBag" >Show my shopping list</a></p>
-<p><a href="${pageContext.request.contextPath}/logout" >Logout</a></p>
+<body>
+<%--<a href="${pageContext.request.contextPath}/product" >All available products</a>--%>
+<%--<a href="${pageContext.request.contextPath}/recipie" >All available recipies</a>--%>
+<%--<a href="${pageContext.request.contextPath}/UserProduct" >Show my products</a>--%>
+<%--<a href="${pageContext.request.contextPath}/shoppingBag" >Show my shopping list</a>--%>
+<%--<a href="${pageContext.request.contextPath}/logout" >Logout</a>--%>
+
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+    <a class="navbar-brand" href="#">Home Panrty</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="${pageContext.request.contextPath}/product" >All available products <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="${pageContext.request.contextPath}/recipie" >All available recipies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="${pageContext.request.contextPath}/UserProduct" >Show my products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="${pageContext.request.contextPath}/shoppingBag" >Show my shopping list</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 </body>
 </html>

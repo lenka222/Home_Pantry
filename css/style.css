@@ -1,5 +1,5 @@
-.login_page {
-background-image: url("https://cdn.pixabay.com/photo/2017/09/12/16/12/mason-jars-2742757_960_720.jpg;");
-  background-repeat: no-repeat;
-  background-position: center;
+body {
+background-color: lightgreen;
+  font-size: 1px;
+  color: black;
 }

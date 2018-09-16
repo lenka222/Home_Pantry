@@ -68,21 +68,5 @@ public class AppConfig extends WebMvcConfigurerAdapter {
     public Validator validator() {
         return new LocalValidatorFactoryBean();
     }
-//
-//    @Bean
-//    public ProductController productController(){
-//        return new ProductController();
-//    }
-//
-//    @Bean
-//    public UserProductsController userProductsController(){
-//        return new UserProductsController();
-//    }
-//
-//    @Bean
-//    public UserController userController(){return new UserController();}
-//
-//    @Bean
-//    public RecipeController recipeController(){return new RecipeController();}
 
 }
