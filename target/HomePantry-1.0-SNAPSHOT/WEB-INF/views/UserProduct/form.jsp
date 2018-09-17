@@ -20,7 +20,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="background-color:#ffffcc">
 <form:form method="post" modelAttribute="UserProduct">
     <form:select multiple="true" items="${myproducts}" path="products"
                  itemValue="id" itemLabel="name"/>

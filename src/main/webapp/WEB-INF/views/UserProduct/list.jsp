@@ -19,7 +19,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="background-color:#ffffcc">
 <c:import url="../fragments/header.jsp"/>
 
 <p><a href="${pageContext.request.contextPath}/UserProduct/form" >Add new product do pantry</a></p>
