@@ -20,7 +20,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="background-color:#ffffcc">
 <c:import url="../fragments/header.jsp"/>
 
 ShoppingBag:<br/> <c:forEach items="${sessionScope.shoppingBag.products}" var="productName">${productName}<br/></c:forEach><br/>

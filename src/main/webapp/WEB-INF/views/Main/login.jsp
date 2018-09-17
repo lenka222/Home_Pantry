@@ -19,10 +19,23 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-image: url("https://cdn.pixabay.com/photo/2014/08/26/15/28/jam-428094_960_720.jpg");
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
 <c:import url="../fragments/header.jsp"/>
 <body link rel="stylesheet" type="text/css" href="css/style.css">
-<h4>Login:</h4>
+<h4><b><font color="#f5f5dc"> Login:</font></b></h4>
 <form method="post">
     <input path  ="text" name="nick" placeholder="nick"/>
 <input type="password" path="password" name="password" placeholder="password"/>

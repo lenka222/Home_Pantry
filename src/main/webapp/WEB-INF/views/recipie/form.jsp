@@ -20,7 +20,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="background-color:#ffffcc">
 <form:form method="post" modelAttribute="recipie">
     Choose products:
 <form:select multiple="true" items="${produkty}" path="ingredients"

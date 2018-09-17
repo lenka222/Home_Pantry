@@ -18,13 +18,12 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="Timer.js"></script>
+
+
 </head>
 <body>
-<%--<a href="${pageContext.request.contextPath}/product" >All available products</a>--%>
-<%--<a href="${pageContext.request.contextPath}/recipie" >All available recipies</a>--%>
-<%--<a href="${pageContext.request.contextPath}/UserProduct" >Show my products</a>--%>
-<%--<a href="${pageContext.request.contextPath}/shoppingBag" >Show my shopping list</a>--%>
-<%--<a href="${pageContext.request.contextPath}/logout" >Logout</a>--%>
 
 <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
     <a class="navbar-brand" href="#">Home Panrty</a>
@@ -45,8 +44,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="${pageContext.request.contextPath}/shoppingBag" >Show my shopping list</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="${pageContext.request.contextPath}/logout" >Logout</a>
+            </li>
         </ul>
     </div>
+    <div id="timer"></div>
 </nav>
 
 </body>

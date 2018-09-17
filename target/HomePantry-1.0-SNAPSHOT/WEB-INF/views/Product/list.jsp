@@ -19,7 +19,8 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="background-color:#ffffcc">
+
 <c:import url="../fragments/header.jsp"/>
 
 <p><a href="${pageContext.request.contextPath}/product/form" >Add Product</a></p>

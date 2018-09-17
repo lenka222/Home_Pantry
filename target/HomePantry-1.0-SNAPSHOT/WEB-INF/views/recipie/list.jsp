@@ -18,11 +18,9 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
-<c:import url="../fragments/header.jsp"/>
 
-<p><a href="${pageContext.request.contextPath}/recipie/form" >Add new recipie</a></p>
+</head>
+<body style="background-color:#ffffcc">
 
 <table class="table table-hover">
 
@@ -49,6 +47,10 @@
 
         </tr>
     </c:forEach>
+
+    <c:import url="../fragments/header.jsp"/>
+    <p><a href="${pageContext.request.contextPath}/recipie/form" >Add new recipie</a></p>
+
     </tbody>
 </table>
 </body>
