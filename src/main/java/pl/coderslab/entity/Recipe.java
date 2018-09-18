@@ -23,6 +23,10 @@ public class Recipe {
     @NotBlank
     private String howToPrepare;
 
+    @NotNull
+    @NotBlank
+    private String name;
+
     @OneToMany
     private List<User> users = new ArrayList<>();
 
@@ -50,4 +54,11 @@ public class Recipe {
         this.howToPrepare = howToPrepare;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

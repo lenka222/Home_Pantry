@@ -24,6 +24,7 @@ public class Product {
     @NotBlank
     private String category;
 
+
     @ManyToMany(mappedBy = "ingredients")
     private List<Recipe> recipes= new ArrayList<>();
 

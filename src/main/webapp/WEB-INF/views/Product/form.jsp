@@ -32,6 +32,7 @@
     <div> <form:radiobutton path="category" placeholder="Milk product" value="Milk product"/>Milk product</div>
     <div><form:radiobutton path="category" placeholder="Meat" value="Meat"/>Meat</div>
     <div> <form:radiobutton path="category" placeholder="Spices" value="Spice"/>Spice</div>
+    <div> <form:radiobutton path="category" placeholder="Other" value="Other"/>Other</div>
     <input type="submit">
 </form:form>
 </body>

@@ -22,6 +22,7 @@
 </head>
 <body style="background-color:#ffffcc">
 <form:form method="post" modelAttribute="recipie">
+    <form:textarea path="name" placeholder="name"/>
     Choose products:
 <form:select multiple="true" items="${produkty}" path="ingredients"
     itemValue="id" itemLabel="name"/>

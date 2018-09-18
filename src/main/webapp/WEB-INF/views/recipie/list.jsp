@@ -39,6 +39,7 @@
     <c:forEach items="${recipesWithIngredients}" var="recipes">
         <tr>
             <th scope="row">${recipes.id}</th>
+            <td>Tu będzie nazwa</td>
             <td>${recipes.howToPrepare}</td>
             <td><c:forEach items="${recipes.ingredients}" var="ingredient">
                 ${ingredient.name} <br>

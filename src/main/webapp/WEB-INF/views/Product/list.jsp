@@ -31,6 +31,8 @@
 <p><a href="${pageContext.request.contextPath}/product/Spice" >Show all Spices</a></p>
 <p><a href="${pageContext.request.contextPath}/product/Loose%20product" >Show all Loose product</a></p>
 <p><a href="${pageContext.request.contextPath}/product/Meat" >Show all Meat</a></p>
+<p><a href="${pageContext.request.contextPath}/product/Other" >Show other</a></p>
+
 ShoppingBag:<br/> <c:forEach items="${sessionScope.shoppingBag.products}" var="productName">${productName}<br/></c:forEach><br/>
 
 <br>
