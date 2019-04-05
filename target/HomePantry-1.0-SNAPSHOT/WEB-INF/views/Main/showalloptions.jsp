@@ -20,22 +20,20 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <style>
-body {
-    background-image: url("https://cdn.pixabay.com/photo/2014/08/26/15/28/jam-428094_960_720.jpg");
 
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
     </style>
 </head>
+<body style="background-color:#ffffcc">
+
 <body>
 <c:import url="../fragments/header.jsp"/>
-
+Home pantry is an app with can help you to organise your food at home, find recipes and reduce your litter. <br><br>
+How does it works? <br>
+<b>You can test a few options like:</b><br>
+Add your favourite food to the list <br>
+Prepare a shopping a list<br>
+Check what do you ave at home <br>
+Check what do you can cook <br>
 
 </body>
 </html>

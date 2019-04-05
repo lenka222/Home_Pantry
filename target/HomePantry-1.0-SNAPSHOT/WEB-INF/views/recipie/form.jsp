@@ -21,6 +21,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body style="background-color:#ffffcc">
+<c:import url="../fragments/header.jsp"/>
 <form:form method="post" modelAttribute="recipie">
     <form:textarea path="name" placeholder="name"/>
     Choose products:

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HomePantry:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="HomePantry-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="HomePantry:war exploded" />
+    </root>
+  </artifact>
+</component>

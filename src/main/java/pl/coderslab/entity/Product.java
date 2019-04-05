@@ -28,7 +28,6 @@ public class Product {
     @ManyToMany(mappedBy = "ingredients")
     private List<Recipe> recipes= new ArrayList<>();
 
-
     public Long getId() {
         return id;
     }

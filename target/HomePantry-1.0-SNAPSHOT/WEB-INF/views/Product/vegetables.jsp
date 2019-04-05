@@ -28,15 +28,18 @@
 <p><a href="${pageContext.request.contextPath}/product/Fruit" >Show all friuts</a></p>
 <p><a href="${pageContext.request.contextPath}/product/Milk%20product" >Show all milk products</a></p>
 <p><a href="${pageContext.request.contextPath}/product/Spices" >Show all Spices</a></p>
-<p><a href="${pageContext.request.contextPath}/product/Loose%20product" >Show all Loose product</a></p>
-All products:
+<p><a href="${pageContext.request.contextPath}/product/Loose%20product" >Show all Loose product</a></p
+<p><a href="${pageContext.request.contextPath}/product/Meat" >Show all Meat</a></p>
+<p><a href="${pageContext.request.contextPath}/product/Other" >Show other</a></p>
 
+All products:
 <ul>
     <c:forEach items="${product}" var="product">
         <li>${product.name}
             <form method="get">
                 <input type="hidden" name="addToShoppingBag" value="${product.name}"/>
-                <input type="submit" value="Add"/>
+                <input type="submit" value="Add to shopping list"/>
+                <input type="submit" value="Add to my pantry"/>
             </form> </li>
     </c:forEach>
 </ul>

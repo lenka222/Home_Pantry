@@ -30,6 +30,7 @@ public class HomeController {
     public String login(){
     return "Main/login";
 }
+
 @PostMapping("/login")
 public String login(HttpServletRequest request){
     String nick = request.getParameter("nick");
@@ -41,7 +42,6 @@ if(temp != null){
                 session.setAttribute("user", temp);
                 session.setAttribute("shoppingBag", new ShoppingBag());
         return "redirect:/mainpage";
-
     }
 }
     return "redirect:/login";
