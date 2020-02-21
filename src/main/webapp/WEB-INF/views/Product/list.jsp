@@ -45,6 +45,7 @@ ShoppingBag:<br/> <c:forEach items="${sessionScope.shoppingBag.products}" var="p
         <th scope="col">Id</th>
         <th scope="col">Name</th>
         <th scope="col">Category</th>
+        <th scope="col">Delete</th>
     </tr>
     </thead>
     <tbody>
@@ -53,6 +54,7 @@ ShoppingBag:<br/> <c:forEach items="${sessionScope.shoppingBag.products}" var="p
         <th scope="row">${product.id}</th>
         <td>${product.name}</td>
         <td>${product.category}</td>
+        <td></td>
         </form> </td>
     </tr>
     </c:forEach>
